@@ -128,12 +128,11 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-light-600x85.png",
+              "src": "@PROJECT_PATH@/assets/images/logo-light-green-600x85.png",
               "height": 128,
               "alt": "eSTARTUPY.pl",
               "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -302,7 +301,7 @@
           },
           "title": "KREATOR STRON",
           "text": "W tutorialu pokazuję jak zainstalować i korzystać z programu <b><a href=\"https://secure.avangate.com/affiliate.php?ACCOUNT=DELUXMEN&amp;AFFILIATE=110249\">Mobirise</a></b>.&nbsp;Jest&nbsp;to bezpłatny kreator stron internetowych, który działa w trybie offline (instalujemy go na komputerze i nie potrzebujemy internetu podczas pracy nad projektem strony) dla systemu Windows i komputerów Mac, która umożliwia łatwe tworzenie małych/średnich witryn, stron lądowania, internetowych CV i portfoliów, witryn promujących aplikacje, wydarzenia, usługi i produkty.<br>Kreator ten posiada minimalistyczny, niezwykle łatwy w użyciu interfejs. Tworzone w nim strony świetnie współpracują z urządzeniami mobilnymi (świetnie na nich wyglądają i dopasowują się do rozmiaru ekranu), do dyspozycji mamy gotowe bloki, zaprojektowane zgodnie z najnowszymi trendami. Kreator ten jest bezpłatny nawet w przypadku projektów komercyjnych i non-profit<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://secure.avangate.com/affiliate.php?ACCOUNT=DELUXMEN&amp;AFFILIATE=110249\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">WIĘCEJ</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://secure.avangate.com/affiliate.php?ACCOUNT=DELUXMEN&amp;AFFILIATE=110249\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">WIĘCEJ</a>",
           "_tags": [
             "Theme"
           ],
@@ -535,7 +534,7 @@
           },
           "title": "BUDUJ Z GOTOWYCH BLOKÓW",
           "text": "Twórz niesamowite strony na komputery i urządzenia przenośne. <br>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://youtu.be/8YxjLJaMStQ\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ZOBACZ FILM INSTRUKTAŻOWY</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://youtu.be/8YxjLJaMStQ\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ZOBACZ FILM INSTRUKTAŻOWY</a>",
           "_tags": [
             "Theme"
           ],
@@ -651,7 +650,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-light-600x85.png",
+              "src": "@PROJECT_PATH@/assets/images/logo-light-green-600x85.png",
               "height": 128,
               "alt": "eSTARTUPY.pl",
               "link": "index.html",
@@ -884,7 +883,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-light-600x85.png",
+              "src": "@PROJECT_PATH@/assets/images/logo-light-green-600x85.png",
               "height": 128,
               "alt": "eSTARTUPY.pl",
               "link": "index.html",
