@@ -37,7 +37,7 @@
     "favicon": "@PROJECT_PATH@/assets/images/favicon-1.ico",
     "noImageResize": "",
     "gdpr": "Aby kontynuowac, musisz zgodzic sie z warunkami naszego <a href='regulamin.html'>Regulaminu</a> oraz <a href='polityka.html'>Polityka Prywatnosci</a>.",
-    "google-analytics": "",
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-146353344-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-146353344-1');\r\n</script>\r\n",
     "siteUrl": "https://duero125.github.io/web/",
     "sitemapSwitcherAuto": "on",
     "sitemapSwitcher": "on",
