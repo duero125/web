@@ -570,6 +570,7 @@ section.form .container {
   color: #ffffff;
 }
 
+
 #menu-t .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -645,6 +646,12 @@ section.form .container {
 #form1-w .mbr-section-title {
   color: #29b05f;
 }
+#content1-3k DIV {
+  color: #bfcecb;
+}
+#content1-3k B {
+  font-family: 'Lora', serif;
+}
 
 #menu-2w .hide-buttons .nav-btn {
   display: none !important;
@@ -717,4 +724,178 @@ section.form .container {
 }
 #msg-box5-30 H3 {
   font-size: 30px;
+}
+
+#menu-2y .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-2y .navbar-caption {
+  color: #ffffff;
+}
+#menu-2y .navbar-toggler {
+  color: #ffffff;
+}
+#menu-2y .close-icon::before,
+#menu-2y .close-icon::after {
+  background-color: #ffffff;
+}
+#menu-2y .link,
+#menu-2y .dropdown-item {
+  color: #ffffff;
+  font-family: 'Oxygen', sans-serif;
+}
+#menu-2y .link {
+  font-size: 0.75rem;
+}
+#menu-2y .dropdown-item,
+#menu-2y .nav-dropdown-sm .link {
+  font-size: 0.812rem;
+}
+#menu-2y .link:hover,
+#menu-2y .dropdown-item:hover,
+#menu-2y .link:focus,
+#menu-2y .dropdown-item:focus {
+  color: #29b05f;
+}
+#menu-2y .link[aria-expanded="true"],
+#menu-2y .dropdown-menu {
+  background: #000000;
+}
+#menu-2y .nav-dropdown-sm .link:focus,
+#menu-2y .nav-dropdown-sm .link:hover,
+#menu-2y .nav-dropdown-sm .dropdown-item:focus,
+#menu-2y .nav-dropdown-sm .dropdown-item:hover {
+  background: #000000!important;
+}
+#menu-2y .navbar,
+#menu-2y .nav-dropdown-sm,
+#menu-2y .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-2y .nav-dropdown-sm .dropdown-menu {
+  background: #000000;
+}
+#menu-2y .bg-color.transparent .link {
+  color: #ffffff;
+  transition: none;
+}
+#menu-2y .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-2y .bg-color.transparent.opened .link:hover,
+#menu-2y .bg-color.transparent.opened .link:focus {
+  color: #29b05f;
+}
+#menu-2y .link[aria-expanded="true"],
+#menu-2y .dropdown-item[aria-expanded="true"] {
+  color: #29b05f!important;
+}
+#header3-35 .mbr-section-title,
+#header3-35 .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-35 .mbr-section-title {
+  font-size: 25px;
+}
+#msg-box8-34 .mbr-section-title,
+#msg-box8-34 p {
+  color: #fff;
+}
+#msg-box8-34 .mbr-section-title {
+  color: #29b05f;
+}
+#content1-36 P {
+  text-align: left;
+}
+
+#menu-37 .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-37 .navbar-caption {
+  color: #ffffff;
+}
+#menu-37 .navbar-toggler {
+  color: #ffffff;
+}
+#menu-37 .close-icon::before,
+#menu-37 .close-icon::after {
+  background-color: #ffffff;
+}
+#menu-37 .link,
+#menu-37 .dropdown-item {
+  color: #ffffff;
+  font-family: 'Oxygen', sans-serif;
+}
+#menu-37 .link {
+  font-size: 0.75rem;
+}
+#menu-37 .dropdown-item,
+#menu-37 .nav-dropdown-sm .link {
+  font-size: 0.812rem;
+}
+#menu-37 .link:hover,
+#menu-37 .dropdown-item:hover,
+#menu-37 .link:focus,
+#menu-37 .dropdown-item:focus {
+  color: #29b05f;
+}
+#menu-37 .link[aria-expanded="true"],
+#menu-37 .dropdown-menu {
+  background: #000000;
+}
+#menu-37 .nav-dropdown-sm .link:focus,
+#menu-37 .nav-dropdown-sm .link:hover,
+#menu-37 .nav-dropdown-sm .dropdown-item:focus,
+#menu-37 .nav-dropdown-sm .dropdown-item:hover {
+  background: #000000!important;
+}
+#menu-37 .navbar,
+#menu-37 .nav-dropdown-sm,
+#menu-37 .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-37 .nav-dropdown-sm .dropdown-menu {
+  background: #000000;
+}
+#menu-37 .bg-color.transparent .link {
+  color: #ffffff;
+  transition: none;
+}
+#menu-37 .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-37 .bg-color.transparent.opened .link:hover,
+#menu-37 .bg-color.transparent.opened .link:focus {
+  color: #29b05f;
+}
+#menu-37 .link[aria-expanded="true"],
+#menu-37 .dropdown-item[aria-expanded="true"] {
+  color: #29b05f!important;
+}
+#msg-box8-39 .mbr-section-title,
+#msg-box8-39 p {
+  color: #fff;
+}
+#msg-box8-39 .mbr-section-title {
+  color: #29b05f;
+}
+#header3-3a .mbr-section-title,
+#header3-3a .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-3a .mbr-section-title {
+  font-size: 25px;
+  text-align: left;
+}
+#header3-3c .mbr-section-title,
+#header3-3c .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-3c .mbr-section-title {
+  font-size: 25px;
+  text-align: left;
+}
+#header3-3e .mbr-section-title,
+#header3-3e .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-3e .mbr-section-title {
+  font-size: 25px;
+  text-align: left;
 }

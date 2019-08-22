@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Concept Web Design",
-    "currentPage": "index.html",
+    "currentPage": "kontakt.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise3",
@@ -31,10 +31,10 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.1",
     "siteFonts": [],
-    "uniqCompNum": 104,
+    "uniqCompNum": 129,
     "versionPublish": "4.10.7",
     "screenshot": "screenshot.png",
-    "favicon": "@PROJECT_PATH@/assets/images/favicon.ico",
+    "favicon": "@PROJECT_PATH@/assets/images/favicon-1.ico",
     "noImageResize": "",
     "cookiesAlert": "W celu poprawy jakosci naszych uslug, stosujemy na tej stronie pliki cookies. Wiecej szczególów na ten temat znajdziesz na stronie <a href='polityka.html'>Polityka Prywatnosci</a>.",
     "gdpr": "Aby kontynuowac, musisz zgodzic sie z warunkami naszego <a href='regulamin.html'>Regulaminu</a> oraz <a href='polityka.html'>Polityka Prywatnosci</a>.",
@@ -562,7 +562,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2018 <a href=\"https://estartupy.pl\">Concept Web Designl</a>",
+          "text": "<a href=\"index.html\" class=\"text-primary\">Copyright (c) 2018 Concept Web Designl</a>",
           "_tags": [
             "Theme"
           ],
@@ -575,7 +575,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Kontakt",
-        "order": 5
+        "order": 4
       },
       "components": [
         {
@@ -713,7 +713,7 @@
             "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -769,6 +769,28 @@
         },
         {
           "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<b>Aby kontynuowac, musisz zgodzic sie z warunkami naszego <a href=\"regulamin.html\">Regulaminu</a> oraz <a href=\"polityka.html\">Polityki prywatności</a></b>",
+          "_tags": [
+            "Motywy"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-3k",
+          "_styles": {
+            "DIV": {
+              "color": "#bfcecb"
+            },
+            "B": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            }
+          }
+        },
+        {
+          "_params": {
             "googleMap": {
               "address": "Sosnowiec, Poland",
               "placeId": "ChIJKUva_pnaFkcR2wdlK6EqbMs",
@@ -795,7 +817,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2018 <a href=\"https://estartupy.pl\">Concept Web Designl</a>",
+          "text": "<a href=\"index.html\" class=\"text-primary\">Copyright (c) 2018 Concept Web Designl</a>",
           "_tags": [
             "Theme"
           ],
@@ -808,7 +830,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Co Czytać",
-        "order": 1
+        "order": 3
       },
       "components": [
         {
@@ -916,7 +938,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2018 <a href=\"https://estartupy.pl\">Concept Web Designl</a>",
+          "text": "<a href=\"index.html\" class=\"text-primary\">Copyright (c) 2018 Concept Web Designl</a>",
           "_tags": [
             "Theme"
           ],
@@ -1016,6 +1038,472 @@
               "font-size": "30px"
             }
           }
+        }
+      ]
+    },
+    "regulamin.html": {
+      "settings": {
+        "meta_descr": "Regulamin strony",
+        "title": "Regulamin",
+        "order": 2
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-family": "'Oxygen', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#29b05f!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#000000",
+            "fontSize": "0.75",
+            "fontName": {
+              "name": "Oxygen",
+              "url": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "css": "'Oxygen', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">STRONA GŁÓWNA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://secure.avangate.com/affiliate.php?ACCOUNT=DELUXMEN&amp;AFFILIATE=110249\" target=\"_blank\">KREATOR STRON</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"co_czytac.html\">CO CZYTAĆ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"kontakt.html\">KONTAKT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-light-green-600x85.png",
+              "height": 128,
+              "alt": "eSTARTUPY.pl",
+              "link": "index.html",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-2y"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "25px"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": "3",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "REGULAMIN KORZYSTANIA Z BLOGA",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Motywy"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-35"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "<a href=\"index.html\" class=\"text-primary\">Copyright (c) 2018 Concept Web Designl</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-2z"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "color": "#29b05f"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
+            "paddingTop": "5",
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1026.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": 0.5
+          },
+          "title": "REGULAMIN",
+          "text": "<p>Article header with background image and parallax effect.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "_tags": [
+            "Motywy"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-34"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>\n</p><p><b>1. </b>Niniejszy Regulamin korzystania ze strony internetowej (dalej: „Regulamin”) określa warunki, na jakich umożliwia się nieodpłatne korzystanie ze strony internetowej https://duero125.github.io/web/., w tym z zawartych w niej materiałów i treści.</p><p><br></p><p><b>2.</b>&nbsp;Teksty zamieszczane na Blogu mogą mieć formę reklamy lub promocji.</p><p><br></p><p> \n</p><p><b>3.</b> Korzystanie z niniejszego Bloga jest równoznaczne z wyrażeniem zgody na objęcie warunkami niniejszego Regulaminu. W razie braku zgody na warunki Regulaminu dalsze korzystanie ze Blog nie jest dopuszczalne. Na Blogu nie można składać ofert, zamówień, czy zapytań ofertowych do twórcy.</p><p><br></p><p>\n</p><p><b>4.</b> Prawa do Bloga jako całości przysługują twórcy, zaś prawa do poszczególnych elementów jego zawartości przysługują osobom trzecim, tj. osobom fizycznym, osobom prawnym oraz innym podmiotom, których materiały i treści zgodnie z prawem są udostępniane przez twórcę na Blogu.</p><p><br></p><p><b>5.</b> Twórca nie ponosi odpowiedzialności za zamieszczone na Blogu materiały i treści pochodzące od osób trzecich, korzystających z Bloga („Użytkownicy”), w szczególności w formie komentarzy. Umieszczając na Blogu materiały lub treści Użytkownik oświadcza, że przysługują mu do nich prawa autorskie oraz zezwala na ich bezterminową i bezwarunkową publikację w serwisie.</p><p><br></p><p><b>6.</b> Moderatorzy Bloga zastrzegają sobie prawo do usuwania poszczególnych wpisów w Blogu, jeżeli naruszą one zasady współżycia społecznego, prawo obowiązujące na terytorium Rzeczpospolitej Polskiej lub zawierają treści wulgarne lub obraźliwe.</p><p><br></p><p> \n</p><p><b>7. </b>Układ i kompozycja Bloga, zastosowane w nim elementy i rozwiązania graficzne oraz aplikacje znajdujące się na Blogu, stanowią własność twórcy, o ile nie jest wprost stwierdzone inaczej, i są przedmiotem ochrony prawnej.</p><p><br></p><p>\n</p><p><b>8. </b>Zawartość Bloga podlega ochronie przepisów prawa autorskiego. Wykorzystywanie bez zgody twórcy jakichkolwiek materiałów i treści zamieszczonych na Blogu może stanowić naruszenie praw autorskich, jednakże Użytkownicy Bloga mają prawo korzystania z materiałów i treści udostępnianych za jej pośrednictwem wyłącznie na własny użytek osobisty, w celach zgodnych z przeznaczeniem Bloga oraz z przepisami prawa, Regulaminem oraz dobrymi obyczajami.</p><p><br></p><p><b>9. </b>Twórca wyraża zgodę na rozpowszechnianie materiałów i treści zamieszczanych na Blogu wyłącznie pod warunkiem wskazania w miejscu ich publikacji bezpośredniego adresu internetowego do podstrony Bloga, z której zostały powielone, wraz z informacją o ich pochodzeniu (adresem Bloga). W pozostałych przypadkach, w tym w przypadku niespełnienia ww. warunku Użytkownicy Bloga nie są uprawnieni do jakiegokolwiek rozpowszechniania, w tym zwielokrotniania, czy innego udostępniania, sprzedawania lub w inny sposób wprowadzania do obrotu zawartości Bloga, zarówno w całości, jak i w części. W szczególności, nie jest dozwolone ich wykorzystywanie w jakiejkolwiek zorganizowanej działalności zarobkowej lub niezarobkowej bez wcześniejszej pisemnej zgody twórcy.</p><p><br></p><p><b>10.</b> W trakcie korzystania z Bloga w systemie teleinformatycznym Użytkownika instalowane są tzw. ciasteczka (pliki cookies) dla celów identyfikacji oraz dla celów statystycznych. Użytkownik Bloga wyraża zgodę na przechowywanie przez Administratora na jego komputerze plików cookies, tj. plików tekstowych lub innych danych informatycznych, przechowywanych na urządzeniu końcowym Użytkownika Bloga. Pliki te nie ingerują w integralność systemu Użytkownika Bloga, a służą przede wszystkim do prowadzenia statystyk Administratora Bloga, dostosowania zawartości Bloga do preferencji użytkownika. Pliki cookies nie mają na celu zmiany konfiguracji komputera użytkowania oraz instalowania złowrogiego oprogramowania. Przeglądarki internetowe domyślnie akceptują pliki cookies. W każdej chwili można wyłączyć w przeglądarce ich akceptację, jednak efektem takiej zmiany mogą być utrudnienia związane z korzystaniem z Bloga.</p><p><br></p><p><b>11.</b> Na Blogu mogą być wyświetlane reklamy pochodzące z serwisów zewnętrznych, co wiąże się z wykorzystaniem przez reklamodawców zewnętrznych plików cookie lub właściwych elementów oprogramowania, na co Użytkownik wyraża zgodę.</p><p><br></p><p> \n</p><p><b>12. </b>Przy korzystaniu z Bloga zalecane jest posiadanie zaktualizowanego oprogramowania antywirusowego. Twórca dokłada wszelkich starań, aby Blog był wolny od złośliwego oprogramowania, niemniejtwórca nie ponosi odpowiedzialności za skutki korzystania z Bloga, powstałe w systemie teleinformatycznym użytkownika, w tym w infrastrukturze technicznej i danych.</p><p><br></p><p>\n</p><p><b>13. </b>Twórca dokłada wszelkich starań, aby materiały i treści zamieszczone na Blogu były aktualne, dokładne, oraz dostępne nieprzerwanie, jednakże nie ponosi odpowiedzialności za jakiekolwiek skutki wynikające z nieaktualności, nietrafności, niedokładności lub niezgodności treści ze stanem rzeczywistym, a także ich niedostępności w jakimkolwiek momencie, w tym za skutki wynikające z polegania na tych materiałach i treściach.</p><p><br></p><p><b>14.</b> Twórca nie ponosi odpowiedzialności za prawne, finansowe i jakiekolwiek inne konsekwencje użycia przez Użytkownika materiałów i treści zamieszczonych na Blogu.</p><p><br></p><p><b>15.</b> Reklamacje i uwagi, co do funkcjonowania Bloga oraz dostępnych materiałów i treści, narzędzi i usług należy zgłaszać na adres e-mail: duero@wp.pl&nbsp;</p><p><br></p><p><b>16.</b> Twórca jest uprawniony do zmiany Regulaminu w każdym czasie. Zmiana Regulaminu wchodzi w życie z momentem publikacji nowej wersji Regulaminu na Blogu. W przypadku braku zgody na zmianę Regulaminu dalsze korzystanie z Bloga nie jest dopuszczalne.</p><p><br></p><p><b>17.</b> Twórca zastrzega sobie prawo do wiążącej interpretacji treści Regulaminu, z zastrzeżeniem bezwzględnie obowiązujących przepisów prawa.</p><p><br></p><p> \n</p><p><b>18. </b>Wszelkie spory wynikłe z korzystania z Bloga, nie rozwiązane polubownie, rozstrzygane będą przez właściwy miejscowo i rzeczowo sąd powszechny.</p><p><br></p><p> \n</p><p>\n</p><p>Sosnowiec, 22.08.2019r.</p>",
+          "_tags": [
+            "Motywy"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "content1-36"
+        }
+      ]
+    },
+    "polityka.html": {
+      "settings": {
+        "meta_descr": "Polityka prywatności",
+        "title": "Polityka prywatności",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-family": "'Oxygen', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#29b05f!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#000000",
+            "fontSize": "0.75",
+            "fontName": {
+              "name": "Oxygen",
+              "url": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "css": "'Oxygen', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">STRONA GŁÓWNA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://secure.avangate.com/affiliate.php?ACCOUNT=DELUXMEN&amp;AFFILIATE=110249\" target=\"_blank\">KREATOR STRON</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"co_czytac.html\">CO CZYTAĆ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"kontakt.html\">KONTAKT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-light-green-600x85.png",
+              "height": 128,
+              "alt": "eSTARTUPY.pl",
+              "link": "index.html",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-37"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "color": "#29b05f"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
+            "paddingTop": "5",
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1216.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.6"
+          },
+          "title": "POLITYKA PRYWATNOŚCI",
+          "text": "<p>Article header with background image and parallax effect.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "_tags": [
+            "Motywy"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-39"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "25px",
+              "text-align": "left"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": "3",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "Postanowienia Ogólne",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Motywy"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-3a"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p><b>1.&nbsp;</b><span style=\"font-size: 1.07rem;\">Ochrona danych odbywa się zgodnie z wymogami powszechnie obowiązujących przepisów prawa, a ich przechowywanie ma miejsce na zabezpieczonych serwerach.</span></p><p><b>2.</b>&nbsp;<span style=\"font-size: 1.07rem;\">Dla interpretacji terminów stosuje się słowniczek Regulaminu lub tak jak zostało to opisane w Polityce Prywatności (jeżeli wynika to bezpośrednio z opisu).</span></p><p><b>3.</b>&nbsp;<span style=\"font-size: 1.07rem;\">Na potrzeby lepszego odbioru Polityki Prywatności termin „Użytkownik” zastąpiony został określeniem „Ty”,  „Administrator” – „My”. Termin „RODO” oznacza Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE.</span></p><p><b>4.</b>&nbsp;<span style=\"font-size: 1.07rem;\">Szanujemy prawo do prywatności i dbamy o bezpieczeństwo danych. W tym celu używany jest m.in. bezpieczny protokół szyfrowania komunikacji (SSL).</span></p><p><b>5.</b>&nbsp;<span style=\"font-size: 1.07rem;\">Dane osobowe podawane w formularzu na naszej stronie są traktowane jako poufne i nie są widoczne dla osób nieuprawnionych.</span></p>",
+          "_tags": [
+            "Motywy"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-3b"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "25px",
+              "text-align": "left"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "Administrator Danych",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Motywy"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-3c"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p><b>6. </b>Usługodawca jest administratorem danych swoich klientów. Oznacza to, że jeśli posiadasz Konto na naszej stronie, to przetwarzamy Twoje dane jak: imię, nazwisko, adres e-mail, numer telefonu, adres IP.\n</p><p><b>7. </b>Usługodawca jest także administratorem osób zapisanych na newsletter i osób zapisanych na webinar.\n</p><p><b>8. </b>Dane osobowe przetwarzane są:\n</p><p><b>a.</b> zgodnie z przepisami dotyczącymi ochrony danych osobowych,\n</p><p><b>b.</b> zgodnie z wdrożoną Polityką Prywatności,\n</p><p><b>c.</b> w zakresie i celu niezbędnym do nawiązania, ukształtowania treści Umowy, zmiany bądź jej rozwiązania oraz prawidłowej realizacji Usług świadczonych drogą elektroniczną,\n</p><p><b>d.</b> w zakresie i celu niezbędnym do wypełnienia uzasadnionych interesów (prawnie usprawiedliwionych celów), a przetwarzanie nie narusza praw i wolności osoby, której dane dotyczą:\n</p><p>- w zakresie i celu zgodnym ze zgodą wyrażoną przez Ciebie jeśli zapisałeś się na newsletter,\n</p><p>- w zakresie i celu zgodnym z wyrażoną przez Ciebie zgodą jeżeli zapisałeś się na webinar.\n</p><p>\n</p><p><b>9. </b>Każda osoba, której dane dotyczą (jeżeli jesteśmy ich administratorem) ma prawo dostępu do danych, sprostowania, usunięcia lub ograniczenia przetwarzania, prawo sprzeciwu, prawo wniesienia skargi do organu nadzorczego.\n</p><p><b>10. </b>Kontakt z osobą nadzorującą przetwarzanie danych osobowych w organizacji Usługodawcy jest możliwy drogą elektroniczną pod adresem e-mail: duero@wp.pl.pl.\n</p><p><b>11.</b> Zastrzegamy sobie prawo do przetwarzania Twoich danych po rozwiązaniu Umowy lub cofnięciu zgody tylko w zakresie na potrzeby dochodzenia ewentualnych roszczeń przed sądem lub jeżeli przepisy krajowe albo unijne bądź prawa międzynarodowego obligują nas do retencji danych.\n</p><p><b>12. </b>Usługodawca ma prawo udostępniać dane osobowe Użytkownika oraz innych jego danych podmiotom upoważnionym na podstawie właściwych przepisów prawa (np. organom ścigania).\n</p><p><b>13. </b>Usunięcie danych osobowych może nastąpić na skutek cofnięcia zgody bądź wniesienia prawnie dopuszczalnego sprzeciwu na przetwarzanie danych osobowych.\n</p><p><b>14.</b> Usługodawca nie udostępniania danych osobowych innym podmiotom aniżeli upoważnionym na podstawie właściwych przepisów prawa.\n</p><p><b>15.</b> Wdrożyliśmy pseudonimizację, szyfrowanie danych oraz mamy wprowadzoną kontrolę dostępu dzięki czemu minimalizujemy skutki ewentualnego naruszenia bezpieczeństwa danych.\n</p><p><b>16.</b> Dane osobowe przetwarzają osoby wyłącznie upoważnione przez nas albo przetwarzający, z którymi ściśle współpracujemy.</p>",
+          "_tags": [
+            "Motywy"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-3d"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "25px",
+              "text-align": "left"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "Pliki cookies",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Motywy"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-3e"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p><b>17. </b>Witryna eSTARTUPY.pl używa cookies. Są to niewielkie pliki tekstowe wysyłane przez serwer www i przechowywane przez oprogramowanie komputera przeglądarki. Kiedy przeglądarka ponownie połączy się ze stroną, witryna rozpoznaje rodzaj urządzenia, z którego łączy się użytkownik. Parametry pozwalają na odczytanie informacji w nich zawartych jedynie serwerowi, który je utworzył. Cookies ułatwiają więc korzystanie z wcześniej odwiedzonych witryn.\n</p><p>\n</p><p>Gromadzone informacje dotyczą adresu IP, typu wykorzystywanej przeglądarki, języka, rodzaju systemu operacyjnego, dostawcy usług internetowych, informacji o czasie i dacie, lokalizacji oraz informacji przesyłanych do witryny za pośrednictwem formularza kontaktowego.\n</p><p>\n</p><p><b>18. </b>Zebrane dane służą do monitorowania i sprawdzenia, w jaki sposób użytkownicy korzystają z naszych witryn, aby usprawniać funkcjonowanie serwisu zapewniając bardziej efektywną i bezproblemową nawigację. Monitorowania informacji o użytkownikach dokonujemy korzystając z narzędzia Google Analytics, które rejestruje zachowanie użytkownika na stronie.\n</p><p>\n</p><p>Cookies identyfikuje użytkownika, co pozwala na dopasowanie treści witryny, z której korzysta, do jego potrzeb. Zapamiętując jego preferencje, umożliwia odpowiednie dopasowanie skierowanych do niego reklam. Stosujemy pliki cookies, aby zagwarantować najwyższy standard wygody naszego serwisu, a zebrane dane są wykorzystywane jedynie wewnątrz firmy eSTARTUPY.pl w celu optymalizacji działań.\n</p><p>\n</p><p><b>19. </b> Na naszej witrynie wykorzystujemy następujące pliki cookies:\n</p><p>\n</p><p><b>a)</b> „niezbędne” pliki cookies, umożliwiające korzystanie z usług dostępnych w ramach serwisu, np. uwierzytelniające pliki cookies wykorzystywane do usług wymagających uwierzytelniania w ramach serwisu;\n</p><p>\n</p><p><b>b)</b> pliki cookies służące do zapewnienia bezpieczeństwa, np. wykorzystywane do wykrywania nadużyć w zakresie uwierzytelniania w ramach serwisu;\n</p><p>\n</p><p><b>c)</b> „wydajnościowe” pliki cookies, umożliwiające zbieranie informacji o sposobie korzystania ze stron internetowych serwisu;\n</p><p>\n</p><p><b>d) </b>„funkcjonalne” pliki cookies, umożliwiające „zapamiętanie” wybranych przez użytkownika ustawień i personalizację interfejsu użytkownika, np. w zakresie wybranego języka lub regionu, z którego pochodzi użytkownik, rozmiaru czcionki, wyglądu strony internetowej itp.;\n</p><p>\n</p><p><b>e)</b> „reklamowe” pliki cookies, umożliwiające dostarczanie użytkownikom treści reklamowych bardziej dostosowanych do ich zainteresowań.\n</p><p>\n</p><p><b>20.</b> Użytkownik w każdej chwili ma możliwość wyłączenia lub przywrócenia opcji gromadzenia cookies poprzez zmianę ustawień w przeglądarce internetowej. Instrukcja zarządzania plikami cookies jest dostępna na stronie\n</p><p>\n</p><p><a href=\"http://www.allaboutcookies.org/manage-cookies\" target=\"_blank\">http://www.allaboutcookies.org/manage-cookies</a>\n</p><p>\n</p><p>Dodatkowe dane osobowe, jak adres e-mail, zbierane są jedynie w miejscach, w których użytkownik wypełniając formularz wyraźnie wyraził na to zgodę. Powyższe dane zachowujemy i wykorzystujemy tylko do potrzeb niezbędnych do wykonania danej funkcji.</p>",
+          "_tags": [
+            "Motywy"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-3f"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "<a href=\"index.html\" class=\"text-primary\">Copyright (c) 2018 Concept Web Designl</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-38"
         }
       ]
     }
