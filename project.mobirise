@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Concept Web Design",
-    "currentPage": "regulamin.html",
+    "currentPage": "kontakt.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise3",
@@ -31,19 +31,27 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.1",
     "siteFonts": [],
-    "uniqCompNum": 130,
+    "uniqCompNum": 131,
     "versionPublish": "4.10.7",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-1.ico",
     "noImageResize": "",
-    "cookiesAlert": "W celu poprawy jakosci naszych uslug, stosujemy na tej stronie pliki cookies. Wiecej szczególów na ten temat znajdziesz na stronie <a href='polityka.html'>Polityka Prywatnosci</a>.",
     "gdpr": "Aby kontynuowac, musisz zgodzic sie z warunkami naszego <a href='regulamin.html'>Regulaminu</a> oraz <a href='polityka.html'>Polityka Prywatnosci</a>.",
     "google-analytics": "",
-    "siteUrl": "",
+    "siteUrl": "https://duero125.github.io/web/",
     "sitemapSwitcherAuto": "on",
     "sitemapSwitcher": "on",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
-    "robotsSwitcher": "on"
+    "robotsSwitcher": "on",
+    "cookiesAlert": {
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "#ffffff",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacity": "99",
+      "text": "W celu poprawy jakości naszych usług, stosujemy na tej stronie pliki cookies. Więcej szczegółów na ten temat znajdziesz na stronie <a href=’polityka.html’>Polityka Prywatności</a>."
+    }
   },
   "pages": {
     "index.html": {
