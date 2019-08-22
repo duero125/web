@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Concept Web Design",
-    "currentPage": "polityka.html",
+    "currentPage": "regulamin.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise3",
@@ -1207,7 +1207,7 @@
           },
           "_params": {
             "showMeta": false,
-            "paddingTop": "3",
+            "paddingTop": "2",
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
