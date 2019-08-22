@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Concept Web Design",
-    "currentPage": "kontakt.html",
+    "currentPage": "polityka.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise3",
@@ -31,7 +31,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.1",
     "siteFonts": [],
-    "uniqCompNum": 129,
+    "uniqCompNum": 130,
     "versionPublish": "4.10.7",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-1.ico",
@@ -1140,29 +1140,6 @@
           "_anchor": "menu-2y"
         },
         {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            ".mbr-section-title": {
-              "font-size": "25px"
-            }
-          },
-          "_params": {
-            "showMeta": false,
-            "paddingTop": "3",
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "title": "REGULAMIN KORZYSTANIA Z BLOGA",
-          "meta": "By John Smith posted July 20, 2016",
-          "_tags": [
-            "Motywy"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-35"
-        },
-        {
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
@@ -1218,6 +1195,29 @@
           ],
           "_name": "msg-box8",
           "_anchor": "msg-box8-34"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "25px"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": "3",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "REGULAMIN KORZYSTANIA Z BLOGA",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Motywy"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-3l"
         },
         {
           "_params": {

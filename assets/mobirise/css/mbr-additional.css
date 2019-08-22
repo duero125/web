@@ -788,19 +788,19 @@ section.form .container {
 #menu-2y .dropdown-item[aria-expanded="true"] {
   color: #29b05f!important;
 }
-#header3-35 .mbr-section-title,
-#header3-35 .mbr-section-subtitle {
-  text-align: center;
-}
-#header3-35 .mbr-section-title {
-  font-size: 25px;
-}
 #msg-box8-34 .mbr-section-title,
 #msg-box8-34 p {
   color: #fff;
 }
 #msg-box8-34 .mbr-section-title {
   color: #29b05f;
+}
+#header3-3l .mbr-section-title,
+#header3-3l .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-3l .mbr-section-title {
+  font-size: 25px;
 }
 #content1-36 P {
   text-align: left;
