@@ -25,14 +25,15 @@
         "#fafafa",
         "#fff2f2",
         "#bfcecb",
-        "#29b05f"
+        "#29b05f",
+        "#00aa9a"
       ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.1",
     "siteFonts": [],
-    "uniqCompNum": 125,
-    "versionPublish": "4.10.7",
+    "uniqCompNum": 127,
+    "versionPublish": "4.10.8",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-1.ico",
     "noImageResize": "",
@@ -356,9 +357,9 @@
             "showText": true,
             "showButtons": false,
             "inverse": true,
-            "imageSize": 50,
+            "imageSize": "50",
             "paddingTop": "1",
-            "paddingBottom": 0,
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -414,9 +415,9 @@
             "showText": true,
             "showButtons": false,
             "inverse": true,
-            "imageSize": 50,
+            "imageSize": "50",
             "paddingTop": "1",
-            "paddingBottom": 0,
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -454,7 +455,7 @@
           },
           "title": "Zmieniaj style na bieżąco",
           "text": "Możesz edytować zawartość każdego bloku tak jakbyś to robił w każdym jednym edytorze tekstu. Klikając element graficzny, możesz zmienić go na własny, dowolny obrazek, filmik lub ikonkę.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a> ",
           "_tags": [
             "Theme"
           ],
@@ -588,7 +589,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Kontakt",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -843,7 +844,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Co Czytać",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -1058,7 +1059,7 @@
       "settings": {
         "meta_descr": "Regulamin strony",
         "title": "Regulamin",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -1256,7 +1257,7 @@
       "settings": {
         "meta_descr": "Polityka prywatności",
         "title": "Polityka prywatności",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
