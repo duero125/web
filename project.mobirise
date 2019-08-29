@@ -6,8 +6,8 @@
       "name": "mobirise3",
       "title": "Mobirise3",
       "styling": {
-        "primaryColor": "#29b05f",
-        "secondaryColor": "#3d8eb9",
+        "primaryColor": "#3d8eb9",
+        "secondaryColor": "#bfcecb",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
         "warningColor": "#f3c649",
@@ -32,7 +32,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.1",
     "siteFonts": [],
-    "uniqCompNum": 127,
+    "uniqCompNum": 132,
     "versionPublish": "4.10.8",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-1.ico",
@@ -118,7 +118,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#29b05f!important"
+              "color": "#3d8eb9!important"
             }
           },
           "_params": {
@@ -218,7 +218,7 @@
               "color": "#29b05f"
             }
           },
-          "title": "<a href=\"https://www.youtube.com/watch?v=8YxjLJaMStQ\" target=\"_blank\" class=\"text-primary\">DARMOWA</a>&nbsp;<br>STRONA KROK PO KROKU",
+          "title": "DARMOWA&nbsp;<br>STRONA KROK PO KROKU",
           "text": "Zbuduj własną profesjonalnie wyglądającą stronę internetową od zera, krok po kroku, bez konieczności posiadania jakiejkolwiek wiedzy z tej dziedziny.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"https://www.youtube.com/watch?v=8YxjLJaMStQ\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">OBEJRZYJ FILM INSTRUKTAŻOWY</a>",
           "_tags": [
